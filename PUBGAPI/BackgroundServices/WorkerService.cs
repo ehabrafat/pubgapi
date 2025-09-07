@@ -51,6 +51,7 @@ namespace PUBGAPI.BackgroundServices
                                    {
                                        var newMatch = new Match
                                        {
+                                           TournamentId = tournament.Id,
                                            RemPlayers = tournament.Players - 1,
                                            Status = tournament.Players == 1 ? "live" : "pending",
                                            EndedAt = tournament.Players == 1 ?

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PUBGAPI.Data;
 
@@ -11,9 +12,11 @@ using PUBGAPI.Data;
 namespace PUBGAPI.Migrations
 {
     [DbContext(typeof(EfDbContext))]
-    partial class EfDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250907181128__changedGameModeName2")]
+    partial class _changedGameModeName2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -284,13 +287,6 @@ namespace PUBGAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("DamageDealt")
-                        .HasColumnType("float");
-
-                    b.Property<string>("DeathType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
@@ -300,23 +296,14 @@ namespace PUBGAPI.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Kills")
-                        .HasColumnType("int");
-
                     b.Property<int>("MatchId")
                         .HasColumnType("int");
 
                     b.Property<double>("Score")
                         .HasColumnType("float");
 
-                    b.Property<double>("TimeSurvived")
-                        .HasColumnType("float");
-
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("WinPlace")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

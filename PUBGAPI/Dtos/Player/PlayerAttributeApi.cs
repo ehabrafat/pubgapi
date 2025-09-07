@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace PUBGAPI.Dtos;
 
-public class PlayerAttribute
+public class PlayerAttributeApi
 {
     [JsonPropertyName("name")]
     public string Name { get; set; }

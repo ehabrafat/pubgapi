@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PUBGAPI.Interfaces;
 
@@ -5,6 +6,8 @@ namespace PUBGAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
+
 public class TournamentsController : ControllerBase
 {
     private readonly ITournamentService _tournamentService;

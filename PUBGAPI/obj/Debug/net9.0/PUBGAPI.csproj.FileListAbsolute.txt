@@ -338,3 +338,4 @@ C:\Ehab\Ehab-Projects\pubgapi\PUBGAPI\obj\Debug\net9.0\refint\PUBGAPI.dll
 C:\Ehab\Ehab-Projects\pubgapi\PUBGAPI\obj\Debug\net9.0\PUBGAPI.pdb
 C:\Ehab\Ehab-Projects\pubgapi\PUBGAPI\obj\Debug\net9.0\PUBGAPI.genruntimeconfig.cache
 C:\Ehab\Ehab-Projects\pubgapi\PUBGAPI\obj\Debug\net9.0\ref\PUBGAPI.dll
+I:\Backend projects\PUBGAPI\PUBGAPI\obj\Debug\net9.0\PUBGAPI.sourcelink.json

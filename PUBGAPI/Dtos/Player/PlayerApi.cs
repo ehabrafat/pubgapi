@@ -2,14 +2,14 @@ using System.Text.Json.Serialization;
 
 namespace PUBGAPI.Dtos;
 
-public class Player
+public class PlayerApi
 {
     [JsonPropertyName("id")]
     public string Id { get; set; }
     
     [JsonPropertyName("attributes")]
-    public PlayerAttribute Attribute { get; set; }
+    public PlayerAttributeApi Attributes { get; set; }
 
-    public Relationship Relationships { get; set; }
+    public RelationshipApi Relationships { get; set; }
 
 }

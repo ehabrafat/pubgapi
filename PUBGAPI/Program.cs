@@ -53,11 +53,12 @@ builder.Services.AddHttpClient("PUBG", client =>
 
 builder.Services.AddHostedService<WorkerService>();
 
-builder.Services.AddKeyedScoped<IPlayerService, PubgService>("PUBG");
+builder.Services.AddKeyedScoped<IPlayService, PubgService>("PUBG");
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITournamentService, TournamentService>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
 builder.Services.AddScoped<IMatchService, MatchService>();
 builder.Services.AddHttpContextAccessor();
 

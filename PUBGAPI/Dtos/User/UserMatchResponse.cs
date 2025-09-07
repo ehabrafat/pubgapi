@@ -1,4 +1,5 @@
-﻿using PUBGAPI.Dtos.Tournament;
+﻿using PUBGAPI.Dtos.Matches;
+using PUBGAPI.Dtos.Tournament;
 
 namespace PUBGAPI.Dtos.User;
 public class UserMatchResponse
@@ -7,5 +8,8 @@ public class UserMatchResponse
     public int RemPlayers { get; set; }
     public string Status { get; set; }
     public TournamentResponse Tournament { get; set; }
+
+    public List<MatchPlayerResponse> Players { get; set; } = new();
+    public DateTime? EndedAt { get; set; }
 }
 

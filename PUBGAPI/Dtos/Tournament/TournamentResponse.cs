@@ -13,5 +13,5 @@ public class TournamentResponse
     
     public int Players { get; set; }
 
-    public GameModeResponse Mode { get; set; }
+    public GameModeResponse? Mode { get; set; }
 }

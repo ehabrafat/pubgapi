@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PUBGAPI.Data;
 
@@ -11,9 +12,11 @@ using PUBGAPI.Data;
 namespace PUBGAPI.Migrations
 {
     [DbContext(typeof(EfDbContext))]
-    partial class EfDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250907173635__applyChanges")]
+    partial class _applyChanges
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -178,7 +181,7 @@ namespace PUBGAPI.Migrations
                             Description = "First-person solo",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "solo-fpp",
+                            Name = "Solo FPP",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
@@ -188,7 +191,7 @@ namespace PUBGAPI.Migrations
                             Description = "First-person duo",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "duo-fpp",
+                            Name = "Duo FPP",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
@@ -198,7 +201,7 @@ namespace PUBGAPI.Migrations
                             Description = "First-person squad (4 players)",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "squad-fpp",
+                            Name = "Squad FPP",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
@@ -208,7 +211,7 @@ namespace PUBGAPI.Migrations
                             Description = "Third-person solo",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "solo",
+                            Name = "Solo",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
@@ -218,7 +221,7 @@ namespace PUBGAPI.Migrations
                             Description = "Third-person duo",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "duo",
+                            Name = "Duo",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
@@ -228,7 +231,7 @@ namespace PUBGAPI.Migrations
                             Description = "Third-person squad (4 players)",
                             GameId = 1,
                             IsDeleted = false,
-                            Name = "squad",
+                            Name = "Squad",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -284,13 +287,6 @@ namespace PUBGAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("DamageDealt")
-                        .HasColumnType("float");
-
-                    b.Property<string>("DeathType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
@@ -300,23 +296,14 @@ namespace PUBGAPI.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Kills")
-                        .HasColumnType("int");
-
                     b.Property<int>("MatchId")
                         .HasColumnType("int");
 
                     b.Property<double>("Score")
                         .HasColumnType("float");
 
-                    b.Property<double>("TimeSurvived")
-                        .HasColumnType("float");
-
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("WinPlace")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

@@ -18,4 +18,19 @@ public class EfDbContext(DbContextOptions options) : DbContext(options)
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
     }
+
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+    {
+        var entries = ChangeTracker.Entries()
+            .Where(x => x.State == EntityState.Added || x.State == EntityState.Modified)
+            .ToList();
+
+        foreach (var entry in entries)
+        {
+            if (entry.Entity is not BaseEntity entity) continue;
+            if (entry.State == EntityState.Added) entity.CreatedAt = DateTime.UtcNow;
+            entity.UpdatedAt = DateTime.UtcNow;
+        }
+        return base.SaveChangesAsync(cancellationToken);
+    }
 }

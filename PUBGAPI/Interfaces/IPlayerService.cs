@@ -1,10 +1,9 @@
-using PUBGAPI.Dtos;
+using PUBGAPI.Dtos.User;
 
 namespace PUBGAPI.Interfaces;
 
 public interface IPlayerService
 {
-
-    public  Task<PubgResponse<List<Player>>?> GetPlayerByName(string name);
-    public  Task<PubgResponse<Player>?> GetPlayerById(string id);
+    public  Task<List<UserMatchResponse>> GetLiveMatches(CancellationToken cancellationToken);
+    public Task<List<UserGameResponse>> GetGames(CancellationToken cancellationToken);
 }

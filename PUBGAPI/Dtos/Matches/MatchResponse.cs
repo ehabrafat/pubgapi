@@ -9,16 +9,10 @@ public class MatchResponse
 
     public int RemPlayers { get; set; }
 
-    public List<PlayerResponse> Players { get; set; } = new();
+    public List<MatchPlayerResponse> Players { get; set; } = new();
 
     public DateTime? EndedAt { get; set; }
 
     public string Status { get; set; } = "Pending";
 }
 
-public class PlayerResponse
-{
-    public int UserId { get; set; }
-    public string Username { get; set; }
-    public int Score { get; set; }
-}
