@@ -12,7 +12,6 @@ public class Tournament : BaseEntity
     [Precision(18, 2)]
     public double Ticket { get; set; }
     public int Players { get; set; }
-
     public int DurationInMin { get; set; }
     public int GameModeId { get; set; }
     public GameMode GameMode { get; set; } = null!;

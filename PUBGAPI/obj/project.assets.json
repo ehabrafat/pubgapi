@@ -4603,24 +4603,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ehabr\\.nuget\\packages\\": {}
+    "C:\\Users\\ehab\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj",
+      "projectUniqueName": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\PUBGAPI.csproj",
       "projectName": "PUBGAPI",
-      "projectPath": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj",
-      "packagesPath": "C:\\Users\\ehabr\\.nuget\\packages\\",
-      "outputPath": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\obj\\",
+      "projectPath": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\PUBGAPI.csproj",
+      "packagesPath": "C:\\Users\\ehab\\.nuget\\packages\\",
+      "outputPath": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ehabr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ehab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4701,7 +4708,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

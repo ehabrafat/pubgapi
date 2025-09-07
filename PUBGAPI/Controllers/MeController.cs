@@ -20,4 +20,11 @@ public class MeController : ControllerBase
         var res = await _userService.GetGames(cancellationToken);
         return Results.Ok(res);
     }
+
+    [HttpGet("LiveMatches")]
+    public async Task<IResult> GetLiveMatches(CancellationToken cancellationToken)
+    {
+        var res = await _userService.GetLiveMatches(cancellationToken);
+        return Results.Ok(res);
+    }
 }

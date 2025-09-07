@@ -10,11 +10,13 @@ public class UserService : IUserService
 {
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly EfDbContext _dbContext;
+    private readonly IUserService _userService;
 
-    public UserService(IHttpContextAccessor httpContextAccessor, EfDbContext dbContext)
+    public UserService(IHttpContextAccessor httpContextAccessor, EfDbContext dbContext, IUserService userService)
     {
         _httpContextAccessor = httpContextAccessor;
         _dbContext = dbContext;
+        _userService = userService;
     }
 
     public async Task<List<UserGameResponse>> GetGames(CancellationToken cancellationToken)
@@ -48,4 +50,33 @@ public class UserService : IUserService
        return user; 
     }
 
+
+    public async Task<List<UserMatchResponse>> GetLiveMatches(CancellationToken cancellationToken)
+    {
+        var user = _userService.GetCurrentUser() ?? throw new Exception("User Not Found");
+        var res = await _dbContext.Matches
+            .Where(x => x.Status != "completed" && x.Players.Any(p => p.GameAccount.ConnectedGame.UserId == user.Id))
+            .Select(x => new UserMatchResponse
+            {
+                Id = x.Id,
+                RemPlayers = x.RemPlayers,
+                Status = x.Status,
+                Tournament = new Dtos.Tournament.TournamentResponse
+                {
+                    Id = x.Tournament.Id,
+                    PrizePool = x.Tournament.PrizePool,
+                    Name = x.Tournament.Name,
+                    Ticket = x.Tournament.Ticket,
+                },
+                Players = x.Players
+                .Select(p => new MatchPlayerResponse
+                {
+                    UserId = p.GameAccount.ConnectedGame.UserId,
+                    Username = p.GameAccount.ConnectedGame.User.Username,
+                    Score = p.Score,
+                }).ToList()
+            })
+            .ToListAsync(cancellationToken);
+        return res;
+    }
 }

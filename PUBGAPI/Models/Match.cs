@@ -10,5 +10,7 @@ public class Match : BaseEntity
     
     public List<Player> Players { get; set; } = new();
 
+    public DateTime? EndedAt { get; set; }
+
     public string Status { get; set; } = "Pending"; // pending, live, completed
 }

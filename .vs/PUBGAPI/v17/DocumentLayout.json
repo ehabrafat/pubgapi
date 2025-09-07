@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ehab\\Ehab-Projects\\pubgapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\controllers\\mecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\controllers\\mecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\interfaces\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\interfaces\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\dtos\\tournament\\tournamentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\dtos\\tournament\\tournamentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\dtos\\user\\usermatchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\dtos\\user\\usermatchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\dtos\\user\\usergameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\dtos\\user\\usergameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\controllers\\tournamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\controllers\\tournamentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\backgroundservices\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\backgroundservices\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\utils\\tournamentqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\utils\\tournamentqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\models\\gameaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\models\\gameaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\utils\\queueplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\utils\\queueplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\models\\connectedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\models\\connectedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\dtos\\player\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\dtos\\player\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\dtos\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\dtos\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\data\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\data\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|c:\\ehab\\ehab-projects\\pubgapi\\pubgapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FC87871-95CE-4881-8B2B-67C591CAF138}|PUBGAPI\\PUBGAPI.csproj|solutionrelative:pubgapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4fc5ff1-28ef-4b04-ad02-6b298310ccc7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TournamentResponse.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Tournament\\TournamentResponse.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Dtos\\Tournament\\TournamentResponse.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Tournament\\TournamentResponse.cs",
+              "RelativeToolTip": "PUBGAPI\\Dtos\\Tournament\\TournamentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:20:34.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserMatchResponse.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\User\\UserMatchResponse.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Dtos\\User\\UserMatchResponse.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\User\\UserMatchResponse.cs",
+              "RelativeToolTip": "PUBGAPI\\Dtos\\User\\UserMatchResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:20:18.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserGameResponse.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\User\\UserGameResponse.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Dtos\\User\\UserGameResponse.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\User\\UserGameResponse.cs",
+              "RelativeToolTip": "PUBGAPI\\Dtos\\User\\UserGameResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:20:07.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "PUBGAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADgvzUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T10:33:11.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TournamentsController.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\TournamentsController.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Controllers\\TournamentsController.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\TournamentsController.cs",
+              "RelativeToolTip": "PUBGAPI\\Controllers\\TournamentsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:01:23.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TournamentService.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Services\\TournamentService.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Services\\TournamentService.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Services\\TournamentService.cs",
+              "RelativeToolTip": "PUBGAPI\\Services\\TournamentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:05:01.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Program.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Program.cs",
+              "RelativeToolTip": "PUBGAPI\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T07:58:10.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "PUBGAPI\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:29:14.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeController.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\MeController.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Controllers\\MeController.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\MeController.cs",
+              "RelativeToolTip": "PUBGAPI\\Controllers\\MeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T09:47:38.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QueuePlayer.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Utils\\QueuePlayer.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Utils\\QueuePlayer.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Utils\\QueuePlayer.cs",
+              "RelativeToolTip": "PUBGAPI\\Utils\\QueuePlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:24:53.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITournamentService.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Interfaces\\ITournamentService.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Interfaces\\ITournamentService.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Interfaces\\ITournamentService.cs",
+              "RelativeToolTip": "PUBGAPI\\Interfaces\\ITournamentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T09:21:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Models\\Player.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\Player.cs",
+              "RelativeToolTip": "PUBGAPI\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:00:36.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PUBGAPI\\appsettings.json",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\appsettings.json",
+              "RelativeToolTip": "PUBGAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T07:58:26.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "PUBGAPI\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T10:41:53.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TournamentQueue.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Utils\\TournamentQueue.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Utils\\TournamentQueue.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Utils\\TournamentQueue.cs",
+              "RelativeToolTip": "PUBGAPI\\Utils\\TournamentQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:23:38.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorkerService.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\BackgroundServices\\WorkerService.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\BackgroundServices\\WorkerService.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\BackgroundServices\\WorkerService.cs",
+              "RelativeToolTip": "PUBGAPI\\BackgroundServices\\WorkerService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:16:07.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameAccount.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\GameAccount.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Models\\GameAccount.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\GameAccount.cs",
+              "RelativeToolTip": "PUBGAPI\\Models\\GameAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:00:50.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConnectedGame.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\ConnectedGame.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Models\\ConnectedGame.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\ConnectedGame.cs",
+              "RelativeToolTip": "PUBGAPI\\Models\\ConnectedGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:00:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Player\\Match.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Dtos\\Player\\Match.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Player\\Match.cs",
+              "RelativeToolTip": "PUBGAPI\\Dtos\\Player\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:57:39.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Models\\Game.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Models\\Game.cs",
+              "RelativeToolTip": "PUBGAPI\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:57:09.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Dtos\\Player\\Player.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Dtos\\Player\\Player.cs",
+              "RelativeToolTip": "PUBGAPI\\Dtos\\Player\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:56:14.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EfDbContext.cs",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Data\\EfDbContext.cs",
+              "RelativeDocumentMoniker": "PUBGAPI\\Data\\EfDbContext.cs",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Data\\EfDbContext.cs",
+              "RelativeToolTip": "PUBGAPI\\Data\\EfDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:19:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PUBGAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Ehab\\Ehab-Projects\\pubgapi\\PUBGAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PUBGAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T07:58:55.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

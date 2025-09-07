@@ -3,6 +3,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using PUBGAPI.BackgroundServices;
 using PUBGAPI.Config;
 using PUBGAPI.Data;
 using PUBGAPI.Interfaces;
@@ -49,6 +50,8 @@ builder.Services.AddHttpClient("PUBG", client =>
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", pubgConfig.ApiKey);
     client.DefaultRequestHeaders.Add("Accept", "application/vnd.api+json");    
 });
+
+builder.Services.AddHostedService<WorkerService>();
 
 builder.Services.AddKeyedScoped<IPlayerService, PubgService>("PUBG");
 builder.Services.AddScoped<IAuthService, AuthService>();

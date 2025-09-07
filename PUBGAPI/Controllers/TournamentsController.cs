@@ -13,5 +13,11 @@ public class TournamentsController : ControllerBase
     {
         _tournamentService = tournamentService;
     }
-    // Join Touranment
+
+    [HttpPost("{id:int}/join")]
+    public async Task<IResult> Join(int id, CancellationToken cancellationToken)
+    {
+        await _tournamentService.Join(id, cancellationToken);
+        return Results.Ok(new {message = "Joined Successfully"});
+    }
 }

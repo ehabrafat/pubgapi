@@ -5,8 +5,8 @@ public class Player : BaseEntity
     public int MatchId { get; set; }
     public Match Match { get; set; } = null!;
 
-    public int UserId { get; set; }
-    public User User { get; set; } = null!;
+    public int GameAccountId { get; set; }
+    public GameAccount GameAccount { get; set; } = null!;
 
     public double Score { get; set; }
     
