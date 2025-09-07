@@ -21,6 +21,7 @@ public class GameService : IGameService
     public async Task<PlayerPerformance> GetPlayerPerformanceForTournament(
         int tournamentId, 
         string accountId, 
+        DateTime matchStartTime,
         CancellationToken cancellationToken)
     {
         var user = _userService.GetCurrentUser() ?? throw new Exception("User not found");
@@ -33,7 +34,8 @@ public class GameService : IGameService
         if(!exists)  throw new Exception("Account not found");
         var gameService = _serviceProvider.GetRequiredKeyedService<IPlayService>(tournament.GameMode.Game.Name);
         var res = await gameService.GetPlayerPerformanceForTournament(tournament.GameMode.Name,
-            accountId);
+            accountId,
+            matchStartTime);
         return res;
     }
     

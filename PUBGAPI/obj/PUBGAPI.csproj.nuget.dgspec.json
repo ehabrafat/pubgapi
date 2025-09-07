@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj": {}
+    "D:\\pubgapi\\PUBGAPI\\PUBGAPI.csproj": {}
   },
   "projects": {
-    "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj": {
+    "D:\\pubgapi\\PUBGAPI\\PUBGAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj",
+        "projectUniqueName": "D:\\pubgapi\\PUBGAPI\\PUBGAPI.csproj",
         "projectName": "PUBGAPI",
-        "projectPath": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\PUBGAPI.csproj",
-        "packagesPath": "C:\\Users\\ehabr\\.nuget\\packages\\",
-        "outputPath": "I:\\Backend projects\\PUBGAPI\\PUBGAPI\\obj\\",
+        "projectPath": "D:\\pubgapi\\PUBGAPI\\PUBGAPI.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\pubgapi\\PUBGAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ehabr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

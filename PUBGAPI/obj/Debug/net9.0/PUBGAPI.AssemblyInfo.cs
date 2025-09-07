@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4494f1022ec7e582f7b69216d1f26c6bc939eed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90665f5ada4b18489ba8bc7e2eb2875422152929")]
 [assembly: System.Reflection.AssemblyProductAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

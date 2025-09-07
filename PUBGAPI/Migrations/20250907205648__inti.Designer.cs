@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PUBGAPI.Data;
 
@@ -11,9 +12,11 @@ using PUBGAPI.Data;
 namespace PUBGAPI.Migrations
 {
     [DbContext(typeof(EfDbContext))]
-    partial class EfDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250907205648__inti")]
+    partial class _inti
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -284,6 +287,13 @@ namespace PUBGAPI.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<double>("DamageDealt")
+                        .HasColumnType("float");
+
+                    b.Property<string>("DeathType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
@@ -293,11 +303,23 @@ namespace PUBGAPI.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("Kills")
+                        .HasColumnType("int");
+
                     b.Property<int>("MatchId")
                         .HasColumnType("int");
 
+                    b.Property<double>("Score")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TimeSurvived")
+                        .HasColumnType("float");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("WinPlace")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -360,7 +382,7 @@ namespace PUBGAPI.Migrations
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DurationInMin = 0,
-                            GameModeId = 4,
+                            GameModeId = 1,
                             IsDeleted = false,
                             Name = "Rambo",
                             Players = 5,

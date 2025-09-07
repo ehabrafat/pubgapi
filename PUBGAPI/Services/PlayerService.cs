@@ -52,6 +52,7 @@ public class PlayerService : IPlayerService
                 RemPlayers = x.RemPlayers,
                 Status = x.Status,
                 EndedAt = x.EndedAt,
+                CreatedAt = x.CreatedAt,
                 Tournament = new Dtos.Tournament.TournamentResponse
                 {
                     Id = x.Tournament.Id,
@@ -84,7 +85,8 @@ public class PlayerService : IPlayerService
             foreach (var player in match.Players)
             {
                 player.Performance =
-                    await _gameService.GetPlayerPerformanceForTournament(match.Tournament.Id, player.AccountId,
+                    await _gameService.GetPlayerPerformanceForTournament(match.Tournament.Id, player.AccountId, 
+                        match.CreatedAt,
                         cancellationToken);
             }
         }

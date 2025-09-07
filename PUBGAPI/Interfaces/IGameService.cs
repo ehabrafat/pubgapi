@@ -7,7 +7,9 @@ public interface IGameService
 {
     public  Task<PlayerPerformance> GetPlayerPerformanceForTournament(
         int tournamentId,
-        string accountId, CancellationToken cancellationToken);
+        string accountId,
+        DateTime matchStartTime, 
+        CancellationToken cancellationToken);
     public Task DisConnect(int gameId, CancellationToken cancellationToken);
     public Task Connect(int gameId, GameConnectRequest req, CancellationToken cancellationToken);
     public Task<GameResponse> GetById(int id, CancellationToken cancellationToken);

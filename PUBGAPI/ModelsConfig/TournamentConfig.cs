@@ -15,7 +15,7 @@ public class TournamentConfig : IEntityTypeConfiguration<Tournament>
             PrizePool = 12,
             Players = 5,
             Ticket = 3,
-            GameModeId = 1
+            GameModeId = 4
         });
         builder.HasData(new Tournament
         {

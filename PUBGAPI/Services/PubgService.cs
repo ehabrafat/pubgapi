@@ -7,6 +7,7 @@ using PUBGAPI.Interfaces;
 
 namespace PUBGAPI.Services;
 
+
 public class PubgService : IPlayService
 {
     private readonly IHttpClientFactory _httpClientFactory;
@@ -54,7 +55,7 @@ public class PubgService : IPlayService
         // Ensure the score doesn't go below 0
         return Math.Round(Math.Max(0, garbageScore), 2);
     }
-    public async Task<PlayerPerformance> GetPlayerPerformanceForTournament(string gameMode, string accountId)
+    public async Task<PlayerPerformance> GetPlayerPerformanceForTournament(string gameMode, string accountId, DateTime tournamentStartTime)
     {
         var performance = new PlayerPerformance();
         var player = await GetPlayerById(accountId);
@@ -62,7 +63,7 @@ public class PubgService : IPlayService
         foreach (var match in matches)
         {
             var pubgMatch = await GetMatch(match.Id);
-            if (pubgMatch is null || pubgMatch.Data.Attributes.GameMode != gameMode) continue;
+            if (pubgMatch is null || pubgMatch.Data.Attributes.GameMode != gameMode || pubgMatch.Data.Attributes.CreatedAt < tournamentStartTime) continue;
             var x = pubgMatch.Included.FirstOrDefault(x => x.Type == "participant" &&
                                                            (x.Attributes.Stats!).PlayerId == accountId);
             if (x == null) continue;
@@ -77,7 +78,9 @@ public class PubgService : IPlayService
         }
         return performance;
     }
-    
+
+
+
     public PubgService(IHttpClientFactory httpClientFactory, PubgConfig pubgConfig)
     {
         _httpClientFactory = httpClientFactory;

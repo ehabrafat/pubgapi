@@ -9,6 +9,7 @@ public class UserMatchResponse
     public string Status { get; set; }
     public TournamentResponse Tournament { get; set; }
 
+    public DateTime CreatedAt { get; set; }
     public List<MatchPlayerResponse> Players { get; set; } = new();
     public DateTime? EndedAt { get; set; }
 }

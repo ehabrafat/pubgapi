@@ -20,6 +20,7 @@ public class PubgData
 
 public class PubgAttributes
 {
+    public DateTime? CreatedAt { get; set; }
     public int Duration { get; set; }
     public string TitleId { get; set; }
     public string MapName { get; set; }
