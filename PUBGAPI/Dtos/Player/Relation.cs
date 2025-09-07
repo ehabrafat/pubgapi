@@ -1,3 +1,5 @@
+using PUBGAPI.Data;
+
 namespace PUBGAPI.Dtos;
 
 public class Relationship

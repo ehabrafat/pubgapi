@@ -131,6 +131,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PUBGAPI.Controllers.MeController",
+    "Method": "GetLiveMatches",
+    "RelativePath": "Me/LiveMatches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PUBGAPI.Controllers.TournamentsController",
     "Method": "Join",
     "RelativePath": "Tournaments/{id}/join",

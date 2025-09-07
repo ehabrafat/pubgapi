@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8625d01fdcbf00c071bc105ef9e74b112ee78a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf8e81e969d66cf08566ff501128bc84671042d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PUBGAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
