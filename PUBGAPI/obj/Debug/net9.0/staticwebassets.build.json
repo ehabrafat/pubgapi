@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CVycUYm/QxMp+XhvEZ7EXa4hXGmPN6T3PeKYMMr2dOY=",
+  "Source": "PUBGAPI",
+  "BasePath": "_content/PUBGAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

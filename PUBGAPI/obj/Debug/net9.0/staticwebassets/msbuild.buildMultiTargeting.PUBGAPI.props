@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PUBGAPI.props" />
+</Project>
